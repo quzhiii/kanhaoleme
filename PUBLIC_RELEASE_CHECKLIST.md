@@ -97,4 +97,14 @@ Exclude:
 
 ## Current Public-Release Status
 
-Not ready to push as-is. Prepare a sanitized public branch or export directory first, using the include/exclude list above.
+**Final: Ready for Genesis hackathon review.**
+
+- Public repo: https://github.com/quzhiii/kanhaoleme
+- Production demo: https://kanhaoleme-public.vercel.app
+- All excluded items confirmed absent from public branch.
+- README byte-verified (SHA256 match) and renders correctly on GitHub.
+- `npm run build` and `npm run lint` both pass.
+- No secrets, real health data, or internal business docs in public release.
+- Public docs: architecture, roadmap, safety-boundary, demo-script.
+- Submission summary: `GENESIS_SUBMISSION.md`.
+- Deployment report: `DEPLOYMENT_REPORT.md`.
